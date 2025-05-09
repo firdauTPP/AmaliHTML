@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KOLEKSI BORANG</title>
+</head>
+<body>
+
+<h2>Student Registration</h2>
+
+<form action="koleksi.php" method="get">
+    <table border="2">
+        <tr>
+            <td><label>Enter Name:</label></td>
+            <td><input type="text" name="name" size="33"></td>
+        </tr>
+        <tr>
+            <td><label>Enter Password:</label></td>
+            <td><input type="password" name="password" size="33"></td>
+        </tr>
+        <tr>
+            <td><label>Enter Address:</label></td>
+            <td><textarea name="address" rows="10" cols="32"></textarea></td>
+        </tr>
+        <tr>
+            <td><label>Select Game:</label></td>
+            <td>
+                <input type="checkbox" name="game" value="Hockey"> Hockey<br>
+                <input type="checkbox" name="game" value="Football"> Football<br>
+                <input type="checkbox" name="game" value="Badminton"> Badminton<br>
+                <input type="checkbox" name="game" value="Cricket"> Cricket<br>
+                <input type="checkbox" name="game" value="Volleyball"> Volleyball
+            </td>
+        </tr>
+        <tr>
+            <td><label>Gender:</label></td>
+            <td>
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+            </td>
+        </tr>
+        <tr>
+            <td><label>Select your age:</label></td>
+            <td>
+                <select name="age">
+                    <option value="">Select</option>
+                    <option value="10-20">10-20</option>
+                    <option value="21-30">21-30</option>
+                    <option value="31-40">31-40</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Choose File:</label></td>
+            <td><input type="file" name="file"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="reset">Reset</button>
+                <button type="submit">Submit Form</button>
+                <button type="button" onclick="window.location.href='index.html'">Back</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
