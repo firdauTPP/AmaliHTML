@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KOLEKSI BORANG</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: lightblue">
+
+  <header>
+    <h1>LOGO</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="catalog.html">CATALOG</a></li>
+            <li><a href="#">ORDER</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <h2 class="contekus">USER FORM</h2>
+
+    <form action="index.html" method="get">
+
+      <table>
+        <tr>
+          <td>FIRST NAME</td>
+          <td><input type="text" name="firstname"></td>
+        </tr>
+        <tr>
+          <td>PASSWORD</td>
+          <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+          <td>GENDER</td>
+          <td>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+          </td>
+        </tr>
+        <tr>
+          <td>ADDRESS</td>
+          <td><textarea name="address" rows="4" cols="30"></textarea></td>
+        </tr>
+        <tr>
+          <td>D.O.B</td>
+          <td>
+            <select name="month">
+              <option>Jan</option>
+              <option>Feb</option>
+              <option>Mar</option>
+            </select>
+            <select name="day">
+              <option>1</option>
+              <option>2</option>
+            </select>
+            <select name="year">
+              <option>1990</option>
+              <option>1991</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>SELECT GAMES</td>
+          <td>
+            <input type="checkbox" name="games" value="hockey"> Hockey
+            <input type="checkbox" name="games" value="football"> Football
+            <input type="checkbox" name="games" value="cricket"> Cricket
+            <input type="checkbox" name="games" value="volleyball"> VolleyBall
+          </td>
+        </tr>
+        <tr>
+          <td>MARITAL STATUS</td>
+          <td>
+            <input type="radio" name="marital" value="married"> Married
+            <input type="radio" name="marital" value="unmarried"> Unmarried
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="checkbox" name="agreement"> I accept this agreement
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <footer>
+      <p>&copy; Noni Creative Cakes Sdn Bhd</p>
+  </footer>
+
+</body>
+</html>

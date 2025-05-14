@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>LOGO</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">CATALOG</a></li>
+                <li><a href="order.html">ORDER</a></li>
+                <li><a href="contactus.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form action="index.html" method="get">
+        <table border="2">
+            <tr>
+                <td><label for="name">Enter Name:</label></td>
+                <td><input type="text" name="name" id="name" size="33"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Enter Password:</label></td>
+                <td><input type="password" name="password" id="password" size="33"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Enter Address:</label></td>
+                <td><textarea name="address" id="address" rows="10" cols="32"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Select Game:</label></td>
+                <td>
+                    <input type="checkbox" name="game" value="Hockey"> Hockey<br>
+                    <input type="checkbox" name="game" value="Football"> Football<br>
+                    <input type="checkbox" name="game" value="Badminton"> Badminton<br>
+                    <input type="checkbox" name="game" value="Cricket"> Cricket<br>
+                    <input type="checkbox" name="game" value="Volleyball"> Volleyball
+                </td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="age">Select your age:</label></td>
+                <td>
+                    <select name="age" id="age">
+                        <option value="">Select</option>
+                        <option value="10-20">10-20</option>
+                        <option value="21-30">21-30</option>
+                        <option value="31-40">31-40</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="file">Choose File:</label></td>
+                <td><input type="file" name="file" id="file"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit Form</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <footer>
+        <p>&copy; Noni Creative Cakes Sdn Bhd</p>
+    </footer>
+
+</body>
+</html>
